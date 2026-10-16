@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA7C11" />
+      <stop offset="100%" stop-color="#E5C378" />
+    </linearGradient>
+    <linearGradient id="favLeafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="14" fill="#0A0A0A" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="1.5" />
+  
+  <!-- Architectural Tower Symbol -->
+  <g transform="translate(6, 6)">
+    <!-- Central Tower -->
+    <path d="M 26 8 L 31 13 L 31 44 L 21 44 L 21 13 Z" fill="url(#favGoldGrad)" />
+    <!-- Left Tower -->
+    <path d="M 12 18 L 18 13 L 18 44 L 12 44 Z" fill="url(#favGoldGrad)" fill-opacity="0.85" />
+    <!-- Right Tower -->
+    <path d="M 34 16 L 40 21 L 40 44 L 34 44 Z" fill="url(#favGoldGrad)" fill-opacity="0.85" />
+    
+    <!-- Architectural Windows / Crossbars -->
+    <line x1="23" y1="20" x2="29" y2="20" stroke="#0A0A0A" stroke-width="1.5" />
+    <line x1="23" y1="27" x2="29" y2="27" stroke="#0A0A0A" stroke-width="1.5" />
+    <line x1="23" y1="34" x2="29" y2="34" stroke="#0A0A0A" stroke-width="1.5" />
+    
+    <line x1="14" y1="24" x2="17" y2="24" stroke="#0A0A0A" stroke-width="1.2" />
+    <line x1="14" y1="31" x2="17" y2="31" stroke="#0A0A0A" stroke-width="1.2" />
+    
+    <line x1="35" y1="26" x2="38" y2="26" stroke="#0A0A0A" stroke-width="1.2" />
+    <line x1="35" y1="33" x2="38" y2="33" stroke="#0A0A0A" stroke-width="1.2" />
+    
+    <!-- Organic Green Leaf Motif wrapping upward -->
+    <path d="M 10 44 C 9 32 18 20 28 17 C 27 24 23 35 15 42 C 13.5 43.5 11.5 44 10 44 Z" fill="url(#favLeafGrad)" />
+    <!-- Leaf Stem / Spine -->
+    <path d="M 11 43 C 14 36 19 28 27 19" stroke="#E6FFFA" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.8" />
+  </g>
+</svg>
